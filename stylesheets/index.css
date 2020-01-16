@@ -1,0 +1,468 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: "flood-std";
+    src: url("../fonts/FloodStd.otf");
+    src: url("../fonts/FloodStd.otf") format("opentype");
+    
+}
+.container_out{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    padding-top: 10px;
+}
+header .container_out{
+    display: flex;
+    justify-content: space-between;
+}
+.header-part{
+    display: flex;
+    justify-content: space-between;
+    color: #354463;
+    width: 80%;
+}
+a{
+    text-decoration: none;
+    color: #354463;
+}
+header .pages{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    align-self: center;
+    font-size: 0.9em;
+    font-weight: 300;
+}
+.button-div{
+    align-self: center;
+}
+button{
+    border-radius: 100px;
+    background-color: #C1F7D5;
+    border: none;
+    padding: 12px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+header #branding{
+    flex-grow: 1;
+}
+section .container_section{
+    padding-bottom: 9%;
+    background: url('../images/annie-spratt-135307-unsplash@laptop.png') no-repeat transparent;
+    background-size: cover;
+}
+section .container_out{
+    display: flex;
+    padding-top: 90px;
+}
+section .container_section .hero-section{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-right: 10%;
+    padding-right: 4%;
+    padding-left: 4%;
+    position: relative;
+    box-sizing: border-box;
+    
+}
+section .container_section .hero-section h1{
+    text-align: left;
+    font: Bold 3vw arial;
+    letter-spacing: 0;
+    color: #354463;
+    line-height: 1.2;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+section .container_section .hero-section .issue #issue{
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-size: 0.9em;
+}
+
+section .container_section .hero-section .issue{
+    background: #354463 0% 0% no-repeat padding-box;
+    height: 30px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: -15px;
+    /* left: 10%; */
+}
+section .container_section .hero-section #read_more{
+    text-align: left;
+    text-decoration: underline;
+    font: Light 16px/24px Helvetica;
+    letter-spacing: -0.16px;
+    color: #354463;
+    font-weight: 100;
+    padding-bottom: 10%;
+}
+section .container_section .main-tagline{
+    font-family: flood-std;
+    font-size: 5vw;
+    line-height: 1.2;
+    color: white;
+    /* padding-top: 80px; */
+}
+.learn_volunteer{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    color: #354463;
+}
+.learn_volunteer p{
+    font-size: smaller;
+    margin-top: -15px;
+    padding-right: 20%;  
+}
+.section-1-footer{
+    position: relative;
+}
+.take_action{
+    width: 150px;
+    background-color: #354463;
+    color: white;
+    text-align: center;
+    height: 30px;
+    position: absolute;
+    top: -8%;
+    left: 42%;
+}
+.take_action p{
+    margin-top: 5px;
+}
+.section_2_background{
+    background-color: #354463;
+    color: white;
+}
+.section_2_container{
+    width: 80%;
+    margin: auto;
+    padding: 50px 0 100px 0;
+}
+.what_we_do{
+    background-color: white;
+    color:#354463;
+    width: 150px;
+    text-align: center;
+    font-size: smaller;
+    padding: 1px 0;
+}
+.section-2-heading{
+    font-size: large;
+    padding-bottom: 50px;
+}
+.work_poster{
+    display: flex;
+    justify-content: space-between;
+}
+.each-poster{
+    background-color: white;
+    width: 29%;
+    color: #354463;
+    padding-bottom: 30px;  
+}
+.poster-image{
+    width: 100%;
+    position: relative;
+    left: 15%;
+    bottom: 30px;
+}
+.below-image{
+    width: 100%;
+    padding: 0 15%;
+    box-sizing: border-box;
+}
+.below-image h3{
+    margin-top: -20px;
+}
+.read-more-button{
+    padding: 0 15%; 
+    box-sizing: border-box; 
+}
+.take-action-background{
+    background: url('../images/Did\ you\ know\ background@laptop.png') no-repeat transparent;
+    background-size: cover;
+}
+.take-action-container{
+    /* width: 80%;
+    margin: auto; */
+    padding: 12%;
+    display: flex;
+    justify-content: space-between;
+}
+.tagline{
+    font-family: flood-std;
+    font-size: 4vw;
+    line-height: 1.2;
+    color: white;
+    margin-top: 0;
+}
+.did-you-know-container{
+    box-sizing: border-box;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    color: #354463;
+    position: relative;
+}
+.did-you-know-tag{
+    background-color: #354463;
+    color: white;
+    text-align: center;
+    width: 135px;
+    position: absolute;
+    top: -15px;
+    margin-left: 8%;
+}
+.did-you-know-tag p{
+    margin: 5px;
+}
+.did-you-know-box{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 8%;
+    margin-bottom: 30px;
+}
+.did-you-know-box h2{
+    margin: 0;
+}
+.did-you-know-box p{
+    margin-top: 0;
+}
+.icon{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+.twitter-icon{
+    padding: 3px 5px 1px 7px;
+    margin-bottom: 10px;
+    background-color: aquamarine;
+    border-radius: 50%;
+}
+.facebook-icon{
+    padding: 4px 9px 1px 9px;
+    border-radius: 50%;
+    background-color: aquamarine;
+}
+
+
+@media only screen and (max-width: 768px) and (min-width: 390px){
+    .header-part{
+        flex-direction: column;
+        padding-bottom: 15px;
+    }
+    #brand{
+        margin-bottom: 14px;
+    }
+    header .pages{
+        justify-content: space-between;
+        width: 70%;
+        align-self: flex-start;
+    }
+    header{
+        height: 120px;
+        padding-top: 0px;
+    }
+    section .container_out{
+        flex-direction: column-reverse;  
+        padding-top: 0;  
+    }
+    
+    section .container_section .main-tagline{
+        font-size: 6.5vw;
+        line-height: 1.1;
+        padding-top: 60px;
+    }  
+    section .container_section .hero-section{
+        margin-top: 50px;
+        width: 100%;
+        padding: 0 10%;
+        height: 250px;  
+    }
+    section .container_section{
+        
+        background: url('../images/annie-spratt-135307-unsplash@tablet.png') no-repeat transparent;
+        background-size: cover;
+        /* background-size: 100% 100%; */
+    }
+    section .container_section .hero-section h1{
+        font-size: 5vw;
+    }
+    section .container_section .hero-section .issue{
+        width: 150px;
+    }
+    section .container_section .hero-section #read_more{
+        margin-top: 30px;
+    }
+    .learn_volunteer{
+        flex-wrap: wrap;
+    }
+    .learn_volunteer div{
+        width: 50%;
+    }
+    .take_action{
+        top: -5%;
+    }
+    .work_poster{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .each-poster{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: 200px;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    .poster-image{
+        width: 40%;
+        left: 5%;
+        object-fit: contain;
+        bottom: 25%;
+    }
+    .below-image{
+        width: 50%;
+        padding-top: 50px;
+        padding-left: 0;
+        padding-right: 40px;
+        margin: 0 10px;
+        font-size: 2vw;
+    }
+    .read-more-button{
+        position: relative;
+        bottom: 28%;
+        left: 10%;
+    }
+    .did-you-know-container{
+        width: 60%;
+    }
+    .tagline-container{
+        width: 100px;
+    }
+    .tagline{
+        font-size: 5vw;
+    }
+    
+}
+@media only screen and (max-width:390px){
+    header .container_out{
+        flex-direction: column;
+    }
+    .header-part{
+        width: 100%;   
+    }
+    .button-div{
+        width: 100%;
+    }
+    .donate_today{
+        margin-bottom: 20px;  
+        width: 100%; 
+    }
+    header .pages{
+        flex-direction: column;
+        margin: 10px 0;
+    }
+    header #branding{
+        width: 90%;
+    }
+    section .container_section{
+        background: url('../images/annie-spratt-135307-unsplash@mobile.png') no-repeat transparent;
+        background-size: cover;  
+    }
+    section .container_out{
+        flex-direction: column-reverse;
+        padding-top: 50px;
+    }
+    section .container_section .main-tagline{
+        font-size: 2.8em;
+        line-height: 1.1;
+    }
+    section .container_section .hero-section{
+        margin-top: 80px;
+        width: 100%;
+        padding: 0 10%; 
+        align-items: center; 
+        height: 200px;
+    }
+    section .container_section .hero-section .issue{
+        width: 160px;
+    }
+    section .container_section .hero-section h1{
+        font-size: 5vw;
+        text-align: center;
+    }
+    section .container_section .hero-section #read_more{
+        padding: 0;
+        text-align: center;
+    }
+    .learn_volunteer{
+        flex-wrap: wrap;
+    }
+    .learn_volunteer div{
+        width: 50%;
+    }
+    .take_action{
+        left: 30%;
+        top: -5%;
+    }
+    .section_2_container{
+        display: flex;
+        flex-direction: column;
+    }
+    .what_we_do{
+        align-self: center;
+    }
+    .section-2-heading{
+        text-align: center;
+    }
+    .work_poster{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .each-poster{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    .poster-image{
+        width:80%;
+        left: 1%;
+        
+    }
+    .take-action-container{
+        flex-direction: column;
+    }
+    .tagline{
+        font-size: 10vw;
+    }
+    .did-you-know-container{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .did-you-know-tag{
+        margin-left: 20%;
+    }
+    
+}

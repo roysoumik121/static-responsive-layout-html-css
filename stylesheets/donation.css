@@ -1,0 +1,185 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: "flood-std";
+    src: url("../fonts/FloodStd.otf");
+    src: url("../fonts/FloodStd.otf") format("opentype");   
+}
+header{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    color: #354463;
+    
+}
+.image-container{
+    background: url('../images/annie-spratt-427340-unsplash@laptop.png') no-repeat transparent;
+    background-size: cover;
+}
+.content-container{
+    display: flex;
+    padding: 5em;
+}
+.form-container{
+    background-color: #354463;
+    color: white;
+    margin-right: 65px;
+    box-sizing: border-box;
+    padding: 5%;
+    width: 55%;
+}
+.form-heading{
+    margin-top: 0;
+}
+.tagline{
+    width:45%;
+}
+.tagline h1{
+    margin-top: 0;
+    font-family: flood-std;
+    font-size: 5vw;
+    line-height: 1.2;
+    color: white;
+    width: 75%;
+}
+input, select{
+    text-align: left;
+    letter-spacing: -0.4px;
+    color: #FFFFFF;
+    /* opacity: 0.2; */
+    background-color: #354463;
+    border: none; 
+    border-bottom: 1.5px solid #C1F7D5;
+    padding-bottom: 10px;  
+}
+::placeholder{
+    opacity: 0.2;
+}
+label{
+    font-size: small;
+}
+.form-container h3{
+    font-size: x-large;
+}
+.fullname, .street-address, .city-state-zip, .creditcard{
+    margin-bottom: 15px;
+}    
+
+.fullname{
+    display: flex;
+    
+}
+.firstname{
+    width: 50%;
+}
+.firstname input{
+    width: 90%;  
+}
+.lastname{
+    width: 50%;
+    box-sizing: border-box;
+    padding-left: 2%;
+}
+.lastname input{
+    width: 100%;
+}
+.street-address input, .email input, .creditcard input{
+    width: 100%;
+}
+.city-state-zip{
+    display: flex;
+}
+.cityname{
+    width: 50%;
+}
+
+.statename, .zipcode{
+    width: 25%;
+}
+.cityname input{
+    width: 80%;
+}
+.statename select{
+    width: 90%;
+}
+.zipcode input{
+    width: 100%;
+}
+.expiry-cvc{
+    display: flex;
+    justify-content: space-between;
+}
+.expiration{
+    display: flex;
+    justify-content: space-between;
+}
+.expiry{
+    width: 65%;
+}
+.expiration input{
+    width: 45%;
+}
+.cvc{
+    width: 25%;
+
+}
+.cvc input{
+    width: 100%;
+}
+.goback-button{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+button{
+    border-radius: 100px;
+    background-color: #C1F7D5;
+    border: none;
+    padding: 12px;
+    font-weight: bold;
+    white-space: nowrap;
+    color: #354463;
+}
+a{
+    color: #C1F7D5;
+    align-self: center;
+}
+footer{
+    padding: 5em;
+    display: flex;
+    color: #354463;
+    justify-content: space-between;
+}
+.contact{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    font-size: smaller;
+    align-self: center;
+}
+.contact div{
+    width: 30%;
+}
+.contact h4{
+    border-bottom: 1px solid #354463;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+}
+.contact p{
+    margin-top: 5px;
+}
+.footer-brand{
+    width: 30%;
+}
+.footer-tagline{
+    text-align: right;
+    width: 20%;
+}
+.footer-tagline h1{
+    /* margin-top: 0; */
+    font-family: flood-std;
+}
+.
